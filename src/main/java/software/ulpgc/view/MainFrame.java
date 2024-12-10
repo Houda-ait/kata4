@@ -5,8 +5,6 @@ import java.awt.*;
 
 public class MainFrame extends JFrame {
 
- JLabel label;
- SQLiteTitleReader titleReader;
     public MainFrame() throws HeadlessException {
         setTitle("Histogram Display");
         setLocationRelativeTo(null);
